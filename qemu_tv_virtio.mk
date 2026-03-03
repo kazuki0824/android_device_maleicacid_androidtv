@@ -6,6 +6,6 @@
 PRODUCT_NAME := qemu_tv_virtio
 PRODUCT_MODEL := QEMU Android TV (virtio display/audio; no passthrough)
 
-PRODUCT_SYSTEM_PROPERTIES += \\
-    ro.maleicacid.product_id=qemu-tv-virtio \\
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.maleicacid.product_id=qemu-tv-virtio \
     ro.hardware.vyos.gpu_passthrough=false

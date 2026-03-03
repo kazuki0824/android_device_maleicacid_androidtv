@@ -6,6 +6,6 @@
 PRODUCT_NAME := r86s_tv_virtio
 PRODUCT_MODEL := R86S Android TV (virtio + GPU/HDMI passthrough on host)
 
-PRODUCT_SYSTEM_PROPERTIES += \\
-    ro.maleicacid.product_id=r86s-tv-virtio \\
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.maleicacid.product_id=r86s-tv-virtio \
     ro.hardware.vyos.gpu_passthrough=true
