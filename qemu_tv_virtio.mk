@@ -3,7 +3,7 @@
 $(call inherit-product, vendor/lineage/build/target/product/lineage_virtio_x86_64_tv.mk)
 $(call inherit-product, device/maleicacid/androidtv/common.mk)
 
-PRODUCT_NAME := qemu_tv_virtio
+PRODUCT_NAME := lineage_qemu_tv_virtio
 PRODUCT_MODEL := QEMU Android TV (virtio display/audio; no passthrough)
 
 PRODUCT_SYSTEM_PROPERTIES += \
