@@ -2,8 +2,11 @@
 
 PRODUCT_CHARACTERISTICS := tv
 
-# Pull in microG (GApps-equivalent) built from repo-synced source under Soong orchestration.
-$(call inherit-product-if-exists, vendor/maleicacid/microg/microg.mk)
+# GApps variant
+GMS_VARIANT := full
+
+# WayDroid-ATV GApps for Android TV x86_64
+$(call inherit-product, vendor/gapps_tv/x86_64/x86_64-vendor.mk)
 
 PRODUCT_BRAND := maleicacid
 PRODUCT_MANUFACTURER := kazuki0824
